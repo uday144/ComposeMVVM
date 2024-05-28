@@ -1,4 +1,4 @@
-package com.example.tweetsy.models
+package com.example.mvvmcomposeapp.models
 
 data class TweetListItem(
     val category: String,

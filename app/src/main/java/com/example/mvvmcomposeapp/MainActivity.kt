@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.mvvmcomposeapp.screens.CategoryItem
 import com.example.mvvmcomposeapp.screens.CategoryScreen
+import com.example.mvvmcomposeapp.screens.DetailScreen
 import com.example.mvvmcomposeapp.ui.theme.MVVMComposeAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -22,7 +23,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         //enableEdgeToEdge()
         setContent {
-            CategoryScreen()
+            //CategoryScreen()
+             DetailScreen()
           /*  MVVMComposeAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(

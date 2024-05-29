@@ -20,8 +20,8 @@ class DetailViewModel @Inject constructor(
 
     init {
         viewModelScope.launch {
-            val category = savedStateHandle.get<String>("category") ?: "motivation"
-            repository.getTweets(category)
+           // val category = savedStateHandle.get<String>("category") ?: "motivation"
+            repository.getTweets("Coding")
         }
     }
 }
